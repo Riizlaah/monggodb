@@ -1,6 +1,11 @@
+# Instalasi
+Untuk menginstal MonggoDB caranya cukup mudah, yaitu tempatkan file `monggodb.py` di dalam proyek anda.
+Kemudian import MonggoDB. instalasi sudah selesai, MonggoDB akan saya usahakan tidak memakai library selain yang disediakan oleh Python Standard Library untuk portabilitas
+
 # Koneksi Database
 Untuk mempersiapkan koneksi database MonggoDB, gunakan class `MonggoDB`. Contoh :
 ```python
+# Hanya perlu classnya saja
 from monggodb import MonggoDB
 
 # koneksi database dengan folder path relatif
