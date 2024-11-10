@@ -44,7 +44,7 @@ users = mdb.select('user').get()
 ```
 ## Dokumentasi
 
-[DOCS.md](./DOCS.md)
+[DOCS-ID.md](./DOCS-ID.md)
 
 ## Rencana Update
 1. Optimisasi
