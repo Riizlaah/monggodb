@@ -11,7 +11,7 @@ from monggodb import MonggoDB
 mdb = MonggoDB("testdb")
 
 # creating table
-mdb.table('user').col('id', autoinc=True, primary_key=True).col('username').col('password').mk_table()
+mdb.table('user').col('id', autoinc=True).col('username').col('password').mk_table()
 
 # creating data (user)
 mdb.create('user', {
