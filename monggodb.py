@@ -55,8 +55,8 @@ class MonggoDB:
   
   def mk_table(self):
     name = self._tmp_info['name']
-    rows = 0 if self._tb_info[name] == None else self._tb_info[name]['rows']
-    lastid = 0 if self._tb_info[name] == None else self._tb_info[name]['lastid']
+    rows = 0 if self._tb_info.get(name) == None else self._tb_info[name]['rows']
+    lastid = 0 if self._tb_info.get(name) == None else self._tb_info[name]['lastid']
     self._tb_info[name] = {
       'columns': self._tmp_info['cols'],
       'rows': rows,
